@@ -7,6 +7,7 @@ Dự án **Project 01 UI - KeyspaceVN** là một trang web giao diện người
 ## Mô tả
 
 Dự án này bao gồm các phần chính như sau:
+
 - **Trang chủ**: Cung cấp cái nhìn tổng quan về các dịch vụ của KeyspaceVN.
 - **Trang đăng nhập**: Cho phép người dùng đăng nhập vào tài khoản của mình.
 - **Trang chi tiết sản phẩm**: Hiển thị thông tin chi tiết về các sản phẩm.
@@ -35,20 +36,3 @@ Dự án này bao gồm các phần chính như sau:
 1. **Clone repository**:
    ```bash
    git clone https://github.com/devryunguyen/project-01-ui-keyspacevn.git
-2.Mở dự án trong VS Code:
-   Mở thư mục dự án trong VS Code.
-3.Chạy dự án:
-   Mở tệp index.html trong trình duyệt của bạn để xem giao diện người dùng.
-   
-Cộng tác
-Chúng tôi hoan nghênh bất kỳ sự đóng góp nào từ cộng đồng. Nếu bạn muốn tham gia vào dự án, vui lòng làm theo các bước sau:
-
-Fork repository này.
-Tạo một nhánh mới (git checkout -b feature/your-feature).
-Commit thay đổi của bạn (git commit -am 'Add new feature').
-Push lên nhánh của bạn (git push origin feature/your-feature).
-Tạo Pull Request từ nhánh của bạn vào nhánh chính của repository.
-Giấy phép
-Dự án này được cấp phép dưới Giấy phép MIT - xem file LICENSE để biết thêm chi tiết.
-
-Cảm ơn bạn đã tham gia và đóng góp vào dự án!
