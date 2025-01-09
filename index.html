@@ -1,11 +1,583 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- Bootstrap  -->
+
+    <!-- Hover  -->
+    <link rel="stylesheet" href="asset/lib/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="asset/lib/Hover-master/css/hover-min.css">
+
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/Green_Tones_Catering_Logo-removebg-preview.png" type="image/x-icon">
+    <title>KeySpace VN | Keyboard Custom Top 1</title>
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <!-- START : HEADER -->
+    <header class="header">
+        <div class="header-top">
+            <div class="header-logo">
+                <img src="asset/img/KeySpace_Logo.png" alt="">
+            </div>
+            <div class="header-search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm.....">
+                <a href="#" class="header__search-icon"><i class="ti-search"></i></a>
+            </div>
+            <div class="header-account">
+                <a href="./login.html">Đăng nhập</a>
+                <i class="ti-bag"></i>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="header__bottom-content">
+                <!-- PC CẤU HÌNH KHỦNG -->
+                <div class="header_bottom--link">
+                    <a href="./s2-sanpham.html">PC CẤU HÌNH KHỦNG<i class="header_bottom--icon ti-angle-down"></i>
+                    </a>
+                    <!-- PC CẤU HÌNH KHỦNG : SUB -->
+                    <div class="link--sub">
+                        <ul class="link--sub-child">
+                            <li><a href="#">PC Chơi game Triple A</a></li>
+                            <li><a href="#">PC Game Online </a></li>
+                            <li><a href="#">PC Văn Phòng</a></li>
+                            <li><a href="#">Máy Trạm</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- LINH KIỆN MÁY TÍNH -->
+                <div class="header_bottom--link">
+                    <a href="./s2-sanpham.html">LINH KIỆN MÁY TÍNH<i class="header_bottom--icon ti-angle-down"></i>
+                    </a>
+                    <!-- LINH KIỆN MÁY TÍNH : SUB -->
+                    <div class="link--sub">
+                        <ul class="link--sub-child">
+                            <li><a href="#">CPU</a></li>
+                            <li><a href="#">MAIN BOARD</a></li>
+                            <li><a href="#">RAM</a></li>
+                            <li><a href="#">VGA</a></li>
+                            <li><a href="#">CASE</a></li>
+                            <li><a href="#">SSD</a></li>
+                            <li><a href="#">NGUỒN</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- LAPTOP -->
+                <div class="header_bottom--link">
+                    <a href="./s2-sanpham.html">LAPTOP<i class="header_bottom--icon ti-angle-down"></i>
+                    </a>
+                    <!-- LAPTOP : SUB -->
+                    <div class="link--sub">
+                        <ul class="link--sub-child">
+                            <li><a href="#">LAPTOP GAMING</a></li>
+                            <li><a href="#">LAPTOP VĂN PHÒNG</a></li>
+                            <li><a href="#">LAPTOP ĐỒ HỌA</a></li>
+                            <li><a href="#">LAPTOP DOANH NHÂN</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- CHUỘT VÀ PAD CHUỘT -->
+                <div class="header_bottom--link">
+                    <a href="./s2-sanpham.html">CHUỘT VÀ PAD CHUỘT<i class="header_bottom--icon ti-angle-down"></i>
+                    </a>
+                    <!-- CHUỘT VÀ PAD CHUỘT : SUB -->
+                    <div class="link--sub">
+                        <ul class="link--sub-child">
+                            <li><a href="#">CHUỘT MÁY TÍNH</a></li>
+                            <li><a href="#">PAD CHUỘT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- BÀN PHÍM -->
+                <div class="header_bottom--link">
+                    <a href="./s2-sanpham.html">BÀN PHÍM<i class="header_bottom--icon ti-angle-down"></i>
+                    </a>
+                    <!-- BÀN PHÍM : SUB -->
+                    <div class="link--sub">
+                        <ul class="link--sub-child">
+                            <li><a href="#">BÀN PHÍM GAMING</a></li>
+                            <li><a href="#">BÀN PHÍM VĂN PHÒNG</a></li>
+                            <li><a href="#">BÀN PHÍM CUSTOM</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- MORE -->
+                <div class="header_bottom--link">
+                    <a href="./s2-sanpham.html">MORE<i class="header_bottom--icon ti-angle-down"></i>
+                    </a>
+                    <!-- MORE : SUB -->
+                    <div class="link--sub">
+                        <ul class="link--sub-child">
+                            <li><a href="#">TAI NGHE</a></li>
+                            <li><a href="#">MÀN HÌNH</a></li>
+                            <li><a href="#">THIẾT BỊ DỰ ÁN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--END: HEADER -->
+
+    <!--START: CENTER -->
+    <div class="center">
+        <!-- SLIDER -->
+        <div class="center__slider">
+            <div class="slider__main">
+                <!-- SLIDER : LEFT -->
+                <div class="slider__main--left">
+                    <div class="left--img">
+                        <div class="list__img">
+                            <img src="./asset/img/slider1.jpg" alt="img1">
+                            <img src="./asset/img/slider2.jpg" alt="img2">
+                            <img src="./asset/img/slider3.jpg" alt="img3">
+                            <img src="./asset/img/slider4.jpg" alt="img4">
+                            <img src="./asset/img/slider5.jpg" alt="img5">
+                        </div>
+                        <div class="list__img--icon">
+                            <button onclick="preList()"><i class="ti-angle-left icon--left"></i></button>
+                            <button onclick="nextList()"><i class="ti-angle-right icon--right"></i></button>
+                        </div>
+                    </div>
+                    <div class="left--img--sub">
+                        <div class="content--sub">
+                            <p>CHUỘT GAMING NHANH NHẤT VIỆT NAM</p>
+                        </div>
+                        <div class="content--sub">
+                            <p>BÀN PHÍM GAMING GIẢM SỐC 2 TRIỆU ĐỒNG</p>
+                        </div>
+                        <div class="content--sub">
+                            <p>CÔNG NGHỆ MỚI NHẤT XỊN NHẤT THẾ GIỚI</p>
+                        </div>
+                        <div class="content--sub">
+                            <p>GIÁ TỐT NHẤT TRÊN THỊ TRƯỜNG CHÍNH HÃNG</p>
+                        </div>
+                        <div class="content--sub">
+                            <p>MUA PC HYPERBOX NHẬN QUÀ SHOCK</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLIDER : RIGHT -->
+                <div class="slider__main--right">
+                    <div class="right__img">
+                        <!-- SALES -->
+                        <div class="img--sales">
+                            <img src="./asset/img/sales.jpg" alt="sales">
+                        </div>
+                        <!-- TRICKS -->
+                        <div class="img--tricks">
+                            <img src="./asset/img/tricks.jpg" alt="tricks">
+                        </div>
+                        <!-- FREESHIP -->
+                        <div class="img--freeship">
+                            <img src="./asset/img/freeship.jpg" alt="freeship">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PRODUCT CLASSIFICATION -->
+        <div class="product__classification">
+            <!-- ARROW--1 -->
+            <div class="product">
+                <div class="item">
+                    <img src="./asset/img/item1.png" alt="item1">
+                    <span>Laptop</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item2.png" alt="item2">
+                    <span>Linh Kiện Máy Tính</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item3.png" alt="item3">
+                    <span>Chuột Máy Tính</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item4.png" alt="item4">
+                    <span>Bàn Di Chuột</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item5.png" alt="item5">
+                    <span>Bàn Phím</span>
+                </div>
+            </div>
+            <!-- ARROW--2 -->
+            <div class="product">
+                <div class="item">
+                    <img src="./asset/img/item6.png" alt="item6">
+                    <span>Tai Nghe</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item7.png" alt="item7">
+                    <span>Loa</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item8.png" alt="item8">
+                    <span>  Màn Hình</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item9.png" alt="item9">
+                    <span>Ghế Cao Cấp</span>
+                </div>
+                <div class="item">
+                    <img src="./asset/img/item10.png" alt="item10">
+                    <span>Thiết Bị Mạng</span>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div class="content">
+            <!-- PHẦN MAIN 1 -->
+            <div class="content__main">
+                <!-- NAME CATEGOGY -->
+                <div class="name__categogy">
+                    <p>PC HYPERBOX SIÊU CHẤT</p>
+                </div>
+                <!-- CÁC DANH MỤC -->
+                <div class="content__main-lists">
+                    <!-- LIST 1 -->
+                    <div class="content__main-list">
+                        <!-- PHẦN TỬ -->
+                        <div class="content__main-item">
+                            <a href="./s2-chitietsanpham.html">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality1.jpg" alt="item1">
+                            <p>HyperBox Harpie 3060 HYPERCORE</p>
+                            <p>24.750.000₫</p>
+                            </a>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality2.jpg" alt="item2">
+                            <p>HyperBox BAHAMUT RX 7800XT FOW</p>
+                            <p>39.290.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality3.jpg" alt="item3">
+                            <p>HyperBox Drake RX 7600 STILLOLD</p>
+                            <p>22.690.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality4.jpg" alt="item4">
+                            <p>HyperBox SPHYNX 3060 SKYFEW</p>
+                            <p>24.190.000₫</p>
+                        </div>
+                    </div>
+
+                    <!-- LIST 2 -->
+                    <div class="content__main-list">
+                        <!-- PHẦN TỬ -->
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality5.jpg" alt="item5">
+                            <p>HyperBox BAHAMOTH 4070 STIKSOW</p>
+                            <p>32.990.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality6.jpg" alt="item6">
+                            <p>HyperBox PEGASUS 1650 MAINEXTS</p>
+                            <p>11.700.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality7.jpg" alt="item7">
+                            <p>HyperBox GARGOYLE 3060 STRIKE</p>
+                            <p>22.090.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/item-quality8.jpg" alt="item8">
+                            <p>HyperBox SNOW GOBLIN 4060 White</p>
+                            <p>18.690.000₫</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- BANNER 2 ẢNH-->
+            <div class="banner__two-img">
+                <div class="banner__two-child">
+                    <a href="./s2-news.html">
+                        <img src="./asset/img/banner-left.jpg" alt="banner_two_left">
+                    <img src="./asset/img/banner-right'.jpg" alt="banner_two_right">
+                    </a>
+                </div>
+            </div>
+            </div>
+            <!-- PHẦN MAIN 2 -->
+            <div class="content__main">
+                <!-- NAME CATEGOGY -->
+                <div class="name__categogy">
+                    <p>KHUYẾN MẠI HẤP DẪN</p>
+                </div>
+                <!-- CÁC DANH MỤC -->
+                <div class="content__main-lists">
+                    <!-- LIST 1 -->
+                    <div class="content__main-list">
+                        <!-- PHẦN TỬ -->
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale1.jpg" alt="item1">
+                            <p>Bàn phím cơ Asus ROG Falchion</p>
+                            <p>1.690.000₫ - 3.790.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale2.webp" alt="item2">
+                            <p>Tai nghe HyperX Cloud Earbuds II</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >1.090.000₫</p>
+                                <p>890.000₫</p>
+                            </div>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale3.jpg" alt="item3">
+                            <p>Chuột Razer DeathAdder V3 Pro Black</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >3.990.000₫</p>
+                                <p>3.190.000₫</p>   
+                            </div>      
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale4.jpg" alt="item4">
+                            <p>Chuột Razer DeathAdder V3 Pro White</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >3.990.000₫</p>
+                                <p>3.200.000₫</p>   
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- LIST 2 -->
+                    <div class="content__main-list">
+                        <!-- PHẦN TỬ -->
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale5.jpg" alt="item1">
+                            <p>Tai nghe Razer Kaira</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >3.990.000₫</p>
+                                <p>2.550.000₫</p>
+                            </div>
+                            </div>
+                        
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale6.jpg" alt="item2">
+                            <p>Chuột Razer DeathAdder Essential</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >990.000₫</p>
+                                <p>449.000₫</p>
+                            </div>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale7.webp" alt="item3">
+                            <p>Chuột Steelseries Prime</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >1.890.000₫</p>
+                                <p>999.000₫</p>
+                            </div>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/sale8.jpg" alt="item4">
+                            <p>Màn hình ViewSonic XG2431</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >8.090.000₫</p>
+                                <p>6.390.000₫</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- BANNER 3 ẢNH -->
+            <div class="banner__three-img">
+                <div class="banner__three-left">
+                    <img src="./asset/img/three-left.jpg" alt="banner_three_left">
+                    <img src="./asset/img/three-center.jpg" alt="banner_three_center">
+                    <img src="./asset/img/three-right.jpg" alt="banner_three_right">
+                </div>
+            </div>
+            <!-- PHẦN MAIN 3 -->
+            <div class="content__main">
+                <!-- NAME CATEGOGY -->
+                <div class="name__categogy">
+                    <p>TOP BÁN CHẠY NHẤT</p>
+                </div>
+                <!-- CÁC DANH MỤC -->
+                <div class="content__main-lists">
+                    <!-- LIST 1 -->
+                    <div class="content__main-list">
+                        <!-- PHẦN TỬ -->
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling1.webp" alt="item1">
+                            <p>Razer DA V3 Pro + HyperPolling 8K</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >4.590.000₫</p>
+                                <p>3.890.000₫</p>
+                            </div>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling2.png" alt="item2">
+                            <p>Chuột Beast X Wireless-Red</p>
+                            <p>3.090.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling3.webp" alt="item3">
+                            <p>Tai nghe HyperX Cloud III-Black</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >2.490.000₫</p>
+                                <p>2.290.000₫</p>
+                            </div>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling4.png" alt="item4">
+                            <p>Chuột Asus ROG Strix Impact III</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >1.690.000₫</p>
+                                <p>1.590.000₫</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- LIST 2 -->
+                    <div class="content__main-list">
+                        <!-- PHẦN TỬ -->
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling5.png" alt="item1">
+                            <p>Bàn phím Razer Huntsman V3 Pro Mini</p>
+                            <p>4.890.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling6.jpg" alt="item2">
+                            <p>Bàn phím HE DrunkDeerG65-Black</p>
+                            <p>2.790.000₫</p>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling7.jpg" alt="item3">
+                            <p>Bàn phím HE DrunkDeerG65-White</p>
+                            <div class="price__sale">
+                                <p style="color: #444; text-decoration-line: line-through; font-size: 1.6rem;" >2.790.000₫</p>
+                                <p>2.690.000₫</p>
+                            </div>
+                        </div>
+                        <div class="content__main-item">
+                            <p>GIẢM GIÁ CỰC SỐC  KHI MUA COMBO</p>
+                            <img class="ten-box" src="./asset/img/salling8.jpg" alt="item4">
+                            <p>Bàn phím DareU EK75-Full White</p>
+                            <p>690.000₫</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- PHẦN EXTRA -->
+            <div class="content__extra">
+                <!-- ELEMENT1 -->
+                <div class="content__extra-element">
+                    <img src="./asset/img/extra1.jpg" alt="extra1">
+                    <p>RAZER</p>
+                    <div class="sub-p">
+                        <p>GIẢM ĐẾN</p>
+                        <p>50%++</p>
+                    </div>
+                </div>
+
+                <!-- ELEMENT2 -->
+                <div class="content__extra-element">
+                    <img src="./asset/img/extra2.jpg" alt="extra2">
+                    <p>LOGITECH</p>
+                    <div class="sub-p">
+                        <p>GIẢM ĐẾN</p>
+                        <p>40%++</p>
+                    </div>
+                </div>
+
+                <!-- ELEMENT3 -->
+                <div class="content__extra-element">
+                    <img src="./asset/img/extra3.jpg" alt="extra3">
+                    <p>MUA KÈM MÀN HÌNH</p>
+                    <div class="sub-p">
+                        <p>GIẢM NGAY</p>
+                        <p>200K</p>
+                    </div>
+                </div>
+
+                <!-- ELEMENT4 -->
+                <div class="content__extra-element">
+                    <img src="./asset/img/extra4.jpg" alt="extra4">
+                    <p>MUA PCHYPERBOX </p>
+                    <div class="sub-p">
+                        <p>TẶNG</p>
+                        <p>GEAR XỊN</p>
+                    </div>
+                </div>
+            </div>
+        <!-- END : CONTENT -->
+    </div>
+    </div>
+    <!--END: CENTER -->
+
+    <!-- START: FOOTER -->
+    <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Về KeySpace Việt Nam</h3>
+                    <ul>
+                        <li>Gửi góp ý, khiếu nại</li>
+                        <li>Chính Sách Bảo Mật</li>
+                        <li>Chính Sách Thanh Toán</li>
+                        <li>Chính Sách Giao Hàng</li>
+                        <li>Chính Sách Đổi Trả Hàng</li>
+                        <li>Chính Sách Bảo Hành</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Liên Hệ</h3>
+                    <p>Facebook : KeySpace Việt Nam Official</p>
+                    <p>HOTLINE: 0794251534</p>
+                    <p>ĐỊA CHỈ: số 1, đường Trần Hoàng Na, quận Ninh Kiều, TP Cần Thơ</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p style="font-size: 2rem; font-weight: 400; color: #444;">GIAO HÀNG TOÀN QUỐC | COD | HOẢ TỐC</p>
+                <p style="font-size: 1.8rem; font-weight: 400; color: #444;">CÔNG TY TNHH KEY SPACE VIỆT NAM</p>
+                <p>Giấy phép ĐKKD số 010999977 do sở Kế hoạch và Đầu tư Thành phố Cần Thơ Cấp ngày 25/08/2024</p>
+                <p>Địa chỉ: Số 2 Lạc Long Quân, Phường Kim Tân, Quận Cái Răng, Thành phố Cần Thơ, Việt Nam</p>
+                <p>Điện thoại: 0794251534</p>
+                <p>Email: hotro@keyspace.vn</p>
+            </div>
+
+
+            <div class="copyright">
+                <p>Copyright 2024 © KeySpace Việt Nam</p>
+            </div>
+    </footer>
+    <!--END: FOOTER -->
+
+    <!-- todo javacript -->
+    <script src="asset/js/javacript.js"></script>
+
 </body>
+
 </html>

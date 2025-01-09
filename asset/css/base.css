@@ -1,0 +1,141 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border: none;
+}
+
+* {
+    font: inherit;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+    margin: 0 ;
+    box-sizing: border-box;
+    
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html {
+    font-size: 62.5%;
+    /* (62.5/100) * 16px = 10px */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/*
+  10. Smooth scrolling only when the user does not have vestibular disorders
+*/
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+/*
+  11. Only outline when using keyboard
+*/
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/*
+  12. Add pointers for required components
+*/
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+    cursor: pointer;
+}
+
+/* 13.Tải thêm sản phẩm */
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Optional: Adjust margin as needed */
+}
+
+.content__main-item {
+  width: calc(25% - 10px); /* Optional: Adjust width and margin as needed */
+  margin-right: 10px; /* Optional: Adjust margin as needed */
+}
