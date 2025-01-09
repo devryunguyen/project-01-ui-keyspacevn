@@ -36,3 +36,7 @@ Dự án này bao gồm các phần chính như sau:
 1. **Clone repository**:
    ```bash
    git clone https://github.com/devryunguyen/project-01-ui-keyspacevn.git
+2. **Mở dự án trong VS Code**:
+- Mở thư mục dự án trong VS Code.
+3. **Chạy dự án**:
+- Mở tệp index.html trong trình duyệt của bạn để xem giao diện người dùng.
